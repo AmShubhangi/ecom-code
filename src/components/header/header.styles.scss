@@ -1,0 +1,37 @@
+.header {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+
+  .logo-container {
+    height: 100%;
+    width: 126px;
+    padding: 16px;
+  }
+
+  .options {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    .option {
+      padding: 10px 10px 0px 10px;
+      cursor: pointer;
+    }
+  }
+}
+img.profile {
+  width: 25px;
+  height: 25px;
+  border-radius: 50px;
+}
+.myLoggedIn {
+  text-align: center;
+}
+.flex {
+  display: flex;
+}
